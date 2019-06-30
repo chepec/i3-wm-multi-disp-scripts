@@ -23,7 +23,7 @@ if len(currentProjWKs) == 1:
 
 thisWKPos = currentProjWKs.index(currentWK)
 
-newWKPos = thisWKPos + 1
+newWKPos = thisWKPos - 1
 
 if newWKPos == len(currentProjWKs):
     newWKPos = 0

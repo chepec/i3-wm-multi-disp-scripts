@@ -55,4 +55,4 @@ subprocess.call(commandToRun)
 
 projToBeFocused = nf.getProjectFromWKName(wkToBeFocused[0])
 # print(projToBeFocused) # P03
-subprocess.run(["zenity", "--notification", "--text=<span size='x-large'>workspace:</span> <span size='x-large' foreground='yellow' background='black' bgalpha='25%' weight='bold'>" + projToBeFocused + "</span>"])
+subprocess.run(["zenity", "--notification", "--text=workspace: " + projToBeFocused + ""])
